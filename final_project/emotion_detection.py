@@ -3,9 +3,8 @@
 # stored in text_to_analyze
 # returned in the text attribute of the function
 
-import cv2
-import numpy as np
-from keras.models import load_model
+import requests
+import json
 
 def emotion_detection(text_to_analyze):
     # endpoint provided by the lab intructions 
